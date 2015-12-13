@@ -1,0 +1,26 @@
+Chapter 13 
+
+page 324 , after the ssh-keygen command , 
+"As a result, my private key (id_rsa) and public key (id_rsa.pub) are copied to the .ssh directory in johndoe’s home directory."
+change it to : 
+"As a result, my private key (id_rsa) and public key (id_rsa.pub) are copied to the .ssh directory in chris’s home directory."
+
+
+
+Chapter 14
+
+page 342  , commenting the output of ip addr show 
+"The IP address for localhost is 127.0.0.1/8 (the /8 is CIDR notation, indicating that 127.0 is the network number and 0.1 is the host number)."
+correct it with :
+"The IP address for localhost is 127.0.0.1/8 (the /8 is CIDR notation, indicating that 127. is the network number and 0.0.1 is the host number)."
+
+page 355 
+When explaining the /etc/nsswitch.conf  the book says : 
+"This is how the hosts entry in the /etc/resolv.conf file appears in Red Hat Enterprise Linux:"
+correct is 
+"This is how the hosts entry in the /etc/nsswitch.conf file appears in Red Hat Enterprise Linux:"
+
+page 356 3rd line 
+"the dns command shows information similar ..."  
+should be changed to 
+"the dig command shows information similar ..."
