@@ -24,3 +24,14 @@ page 356 3rd line
 "the dns command shows information similar ..."  
 should be changed to 
 "the dig command shows information similar ..."
+
+
+
+Chapter 20
+
+page 516 , Figure 20.1
+The contents of the /etc/exports  of computert oak are 
+/apps/bin pins(rw) maple(rw) spruce(rw)
+ but hey should be 
+ /apps/bin pine(rw) maple(rw) spruce(rw)
+ because the name of the other computer is pine not pins.
